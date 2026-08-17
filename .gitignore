@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.matplotlib/
+data/cache/**/*.parquet
+data/cache/**/*.json
+outputs/**/*.png
+outputs/**/*.csv
+outputs/**/*.parquet
+.env
+.env.*
+!.env.example
+state/*.lock
+state/*.tmp
+.DS_Store

@@ -1,0 +1,1 @@
+event_id,event_type,model_version,recommendation_timestamp,run_id,signal_session,rank,ticker,score,predicted_probability,signal_close,entry_date,entry_price,allocation,target_price,stop_price,exit_date,exit_price,exit_reason,return_pct,portfolio_pnl,holding_days,mae,mfe,gap_through_stop,portfolio_equity_before,portfolio_equity_after,recorded_at_utc
