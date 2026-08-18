@@ -1,0 +1,46 @@
+{
+  "covered_on_session": 503,
+  "data_failures": {},
+  "data_session": "2026-08-17",
+  "data_source_status": "OK",
+  "exceptions": [],
+  "git_sha": "a4df8b36dca87f0b180f0163febe79fb75699e72",
+  "model_version": "fast-rebound-v1-frozen",
+  "portfolio_events": [],
+  "portfolio_state_after": {
+    "cash": 100000.0,
+    "equity": 100000.0,
+    "last_processed_session": "2026-08-17",
+    "model_version": "fast-rebound-v1-frozen",
+    "pending": [],
+    "pending_notification": {
+      "message": "FAST REBOUND\nData through: 2026-08-17 U.S. close\n\nNO TRADE\nNo stocks meet the frozen threshold.\n\nMODEL PORTFOLIO\nOpen: 0/3\nPending next open: 0\nAvailable slots: 3\nCurrent exposure: 0.00%\n\nResearch candidates before placing any real order.",
+      "session": "2026-08-17"
+    },
+    "positions": [],
+    "recommendation_sessions": [
+      "2026-08-17"
+    ],
+    "schema_version": 1,
+    "updated_at_utc": "2026-08-18T01:50:43.325044+00:00"
+  },
+  "portfolio_state_before": {
+    "cash": 100000.0,
+    "equity": 100000.0,
+    "last_processed_session": null,
+    "model_version": "fast-rebound-v1-frozen",
+    "pending": [],
+    "pending_notification": null,
+    "positions": [],
+    "recommendation_sessions": [],
+    "schema_version": 1,
+    "updated_at_utc": null
+  },
+  "recommendations": [],
+  "run_id": "fr-20260817",
+  "status": "SUCCESS_TELEGRAM_FAILED",
+  "telegram_error": "Telegram credentials are not configured",
+  "telegram_success": false,
+  "timestamp_utc": "2026-08-18T01:49:37.787411+00:00",
+  "universe_size": 503
+}
