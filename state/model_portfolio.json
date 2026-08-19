@@ -1,17 +1,58 @@
 {
   "cash": 100000.0,
   "equity": 100000.0,
-  "last_processed_session": "2026-08-17",
+  "last_processed_session": "2026-08-18",
   "model_version": "fast-rebound-v1-frozen",
-  "pending": [],
+  "pending": [
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-08-19",
+      "predicted_probability": 0.6717919249088636,
+      "rank": 1,
+      "recommendation_timestamp": "2026-08-19T01:51:50.592724+00:00",
+      "run_id": "fr-20260818",
+      "score": 67.2,
+      "signal_close": 194.7899932861328,
+      "signal_session": "2026-08-18",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "KLAC"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-08-19",
+      "predicted_probability": 0.6496558504473647,
+      "rank": 2,
+      "recommendation_timestamp": "2026-08-19T01:51:50.592724+00:00",
+      "run_id": "fr-20260818",
+      "score": 65.0,
+      "signal_close": 272.5400085449219,
+      "signal_session": "2026-08-18",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "VRT"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-08-19",
+      "predicted_probability": 0.6485369830480799,
+      "rank": 3,
+      "recommendation_timestamp": "2026-08-19T01:51:50.592724+00:00",
+      "run_id": "fr-20260818",
+      "score": 64.9,
+      "signal_close": 159.89999389648438,
+      "signal_session": "2026-08-18",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "GLW"
+    }
+  ],
   "pending_notification": {
-    "message": "FAST REBOUND\nData through: 2026-08-17 U.S. close\n\nNO TRADE\nNo stocks meet the frozen threshold.\n\nMODEL PORTFOLIO\nOpen: 0/3\nPending next open: 0\nAvailable slots: 3\nCurrent exposure: 0.00%\n\nResearch candidates before placing any real order.",
-    "session": "2026-08-17"
+    "message": "FAST REBOUND\nData through: 2026-08-18 U.S. close\n\n3 NEW CANDIDATES\n\n#1 KLAC\nScore: 67.2\nP(+5%): 67.2%\nClose: $194.79\nTarget: +5%\nStop: -7.5%\nMax hold: 10 trading days\nAllocation: 33.33%\nStatus: PENDING NEXT OPEN\n\n#2 VRT\nScore: 65.0\nP(+5%): 65.0%\nClose: $272.54\nTarget: +5%\nStop: -7.5%\nMax hold: 10 trading days\nAllocation: 33.33%\nStatus: PENDING NEXT OPEN\n\n#3 GLW\nScore: 64.9\nP(+5%): 64.9%\nClose: $159.90\nTarget: +5%\nStop: -7.5%\nMax hold: 10 trading days\nAllocation: 33.33%\nStatus: PENDING NEXT OPEN\n\nMODEL PORTFOLIO\nOpen: 0/3\nPending next open: 3\nAvailable slots: 0\nCurrent exposure: 0.00%\n\nResearch candidates before placing any real order.",
+    "session": "2026-08-18"
   },
   "positions": [],
   "recommendation_sessions": [
-    "2026-08-17"
+    "2026-08-17",
+    "2026-08-18"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-08-18T01:50:43.325044+00:00"
+  "updated_at_utc": "2026-08-19T01:53:08.903854+00:00"
 }
