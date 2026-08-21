@@ -98,7 +98,7 @@ def update_for_session(state: dict, panel: pd.DataFrame, session: pd.Timestamp) 
         if reason is None: still_open.append(p); continue
         effective=raw_exit*(1-SLIPPAGE_RATE); gross=p["quantity"]*effective; fee=gross*COMMISSION_RATE; proceeds=gross-fee; state["cash"]+=proceeds; pnl=proceeds-p["entry_cash_out"]; after=state["cash"]+sum(x["quantity"]*x["last_close"] for x in still_open)
         event=_event("EXIT",p,entry_date=p["entry_date"],entry_price=p["entry_price"],target_price=p["target_price"],stop_price=p["stop_price"],exit_date=str(session.date()),exit_price=raw_exit,exit_reason=reason,return_pct=proceeds/p["entry_cash_out"]-1,portfolio_pnl=pnl,holding_days=p["holding_days"],mae=p["mae"],mfe=p["mfe"],gap_through_stop=reason=="stop_gap",portfolio_equity_before=p["portfolio_equity_before"],portfolio_equity_after=after)
-        working_events.append(event); notices.append({"type":"EXIT","ticker":p["ticker"],"price":raw_exit,"reason":reason,"return_pct":event["return_pct"],"holding_days":p["holding_days"]})
+        working_events.append(event); notices.append({"type":"EXIT","ticker":p["ticker"],"price":raw_exit,"reason":reason,"return_pct":event["return_pct"],"holding_days":p["holding_days"],"entry_price":p["entry_price"],"portfolio_pnl":pnl})
     state["positions"]=still_open; state["equity"]=float(state["cash"])+sum(p["quantity"]*p["last_close"] for p in still_open); state["last_processed_session"]=str(session.date())
     for event in working_events:
         if event["event_type"]=="EXIT": event["portfolio_equity_after"]=state["equity"]
