@@ -18,10 +18,7 @@
       "ticker": "INTC"
     }
   ],
-  "pending_notification": {
-    "message": "FAST REBOUND\nData through: 2026-08-20 U.S. close\n\nSTOP HIT\nVRT\nExit: $252.53\nReturn: -7.68%\nHeld: 2 trading days\nReason: stop\n\n1 NEW CANDIDATE\n\n#2 INTC\nScore: 67.1\nP(+5%): 67.1%\nClose: $92.13\nTarget: +5%\nStop: -7.5%\nMax hold: 10 trading days\nAllocation: 33.33%\nStatus: PENDING NEXT OPEN\n\nMODEL PORTFOLIO\nOpen: 2/3\nPending next open: 1\nAvailable slots: 0\nCurrent exposure: 67.13%\n\nResearch candidates before placing any real order.",
-    "session": "2026-08-20"
-  },
+  "pending_notification": null,
   "positions": [
     {
       "allocation": 0.3333333333333333,
@@ -81,5 +78,5 @@
     "2026-08-20"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-08-21T01:57:01.366189+00:00"
+  "updated_at_utc": "2026-08-21T04:24:42.159469+00:00"
 }
