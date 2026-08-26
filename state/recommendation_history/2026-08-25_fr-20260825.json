@@ -1,0 +1,77 @@
+{
+  "accepted_count": 0,
+  "candidates": [
+    {
+      "absolute_move_3pct_frequency_60d": 0.75,
+      "atr_pct": 0.09080514100056626,
+      "available_portfolio_slot": 0,
+      "beta": 4.395840325847405,
+      "close_position_in_day_range": 0.1404420257082092,
+      "consecutive_down_days": 3.0,
+      "distance_sma20": 0.04936578104361411,
+      "drawdown_from_50d_high": -0.3658372507360814,
+      "estimated_probability": 0.6572040603699483,
+      "fast_rebound_score": 65.7,
+      "market_cap": 216812879872.0,
+      "maximum_hold": 10,
+      "plus5_5d_frequency_60d": 0.75,
+      "portfolio_action": "WATCH_ONLY_NO_SLOT",
+      "previous_5d_return": -0.0891941143036058,
+      "previous_close": 1480.77001953125,
+      "qqq_20d_return": 0.05215470396019661,
+      "range_position_100d": 0.4770265919068415,
+      "rank": 1,
+      "realized_volatility_10d": 1.1380159131944638,
+      "recommended_allocation": 0.3333333333333333,
+      "sma20_slope": 0.026141301690092433,
+      "stop_percentage": -0.075,
+      "target_percentage": 0.05,
+      "ticker": "SNDK",
+      "volume_relative_20d": 0.5616308099360915
+    }
+  ],
+  "covered_on_session": 502,
+  "data_failures": {
+    "EA": "no completed bar for data session 2026-08-25"
+  },
+  "data_session_date": "2026-08-25",
+  "data_source_status": "OK",
+  "eligible_count": 37,
+  "git_sha": "6a7a8907f63f2b5f347f144de00a8e104a985a88",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [
+    {
+      "entry_date": "2026-08-24",
+      "entry_price": 1493.02001953125,
+      "holding_days": 2,
+      "mae": -0.05121161132287122,
+      "mfe": 0.04820191941341623,
+      "quantity": 20.224581422808953,
+      "ticker": "SNDK"
+    },
+    {
+      "entry_date": "2026-08-25",
+      "entry_price": 150.80999755859375,
+      "holding_days": 1,
+      "mae": -0.030236706003672342,
+      "mfe": 0.0,
+      "quantity": 199.73973544654604,
+      "ticker": "GLW"
+    },
+    {
+      "entry_date": "2026-08-25",
+      "entry_price": 184.5800018310547,
+      "holding_days": 1,
+      "mae": -0.02091234463137892,
+      "mfe": 0.008397459293431497,
+      "quantity": 158.51259958530403,
+      "ticker": "KLAC"
+    }
+  ],
+  "pending_model_entries": [],
+  "qualifying_count": 1,
+  "run_id": "fr-20260825",
+  "run_timestamp_kst": "2026-08-26T10:57:24.349739+09:00",
+  "run_timestamp_utc": "2026-08-26T01:57:24.349739+00:00",
+  "universe_size": 503
+}

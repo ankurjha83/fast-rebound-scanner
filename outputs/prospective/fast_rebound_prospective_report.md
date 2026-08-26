@@ -15,7 +15,7 @@
   "cumulative_return": -0.103336910082929,
   "cagr_when_meaningful": null,
   "sharpe_when_meaningful": null,
-  "maximum_drawdown": -0.10361872297791941,
+  "maximum_drawdown": -0.11596646544274192,
   "average_mae": -0.08465468181435148,
   "average_mfe": 0.0036798943058079753,
   "average_holding_period": 2.75,

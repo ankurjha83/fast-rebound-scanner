@@ -1,36 +1,9 @@
 {
-  "cash": 59440.4007869364,
-  "equity": 89638.12770220806,
-  "last_processed_session": "2026-08-24",
+  "cash": -3.637978807091713e-12,
+  "equity": 88403.35345572581,
+  "last_processed_session": "2026-08-25",
   "model_version": "fast-rebound-v1-frozen",
-  "pending": [
-    {
-      "allocation": 0.3333333333333333,
-      "entry_due_session": "2026-08-25",
-      "predicted_probability": 0.7104529866847017,
-      "rank": 1,
-      "recommendation_timestamp": "2026-08-25T01:50:58.978817+00:00",
-      "run_id": "fr-20260824",
-      "score": 71.0,
-      "signal_close": 145.5500030517578,
-      "signal_session": "2026-08-24",
-      "status": "PENDING_NEXT_OPEN",
-      "ticker": "GLW"
-    },
-    {
-      "allocation": 0.3333333333333333,
-      "entry_due_session": "2026-08-25",
-      "predicted_probability": 0.7033189195236247,
-      "rank": 3,
-      "recommendation_timestamp": "2026-08-25T01:50:58.978817+00:00",
-      "run_id": "fr-20260824",
-      "score": 70.3,
-      "signal_close": 181.57000732421875,
-      "signal_session": "2026-08-24",
-      "status": "PENDING_NEXT_OPEN",
-      "ticker": "KLAC"
-    }
-  ],
+  "pending": [],
   "pending_notification": null,
   "positions": [
     {
@@ -40,10 +13,10 @@
       "entry_date": "2026-08-24",
       "entry_due_session": "2026-08-24",
       "entry_price": 1493.02001953125,
-      "holding_days": 1,
-      "last_close": 1493.1199951171875,
+      "holding_days": 2,
+      "last_close": 1480.77001953125,
       "mae": -0.05121161132287122,
-      "mfe": 0.016061310688898933,
+      "mfe": 0.04820191941341623,
       "portfolio_equity_before": 90677.72461431214,
       "predicted_probability": 0.682282604551617,
       "quantity": 20.224581422808953,
@@ -57,6 +30,56 @@
       "stop_price": 1381.0435180664062,
       "target_price": 1567.6710205078125,
       "ticker": "SNDK"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_cash_out": 30152.879294750066,
+      "entry_commission": 15.068905194777644,
+      "entry_date": "2026-08-25",
+      "entry_due_session": "2026-08-25",
+      "entry_price": 150.80999755859375,
+      "holding_days": 1,
+      "last_close": 147.16000366210938,
+      "mae": -0.030236706003672342,
+      "mfe": 0.0,
+      "portfolio_equity_before": 90458.6378842502,
+      "predicted_probability": 0.7104529866847017,
+      "quantity": 199.73973544654604,
+      "rank": 1,
+      "recommendation_timestamp": "2026-08-25T01:50:58.978817+00:00",
+      "run_id": "fr-20260824",
+      "score": 71.0,
+      "signal_close": 145.5500030517578,
+      "signal_session": "2026-08-24",
+      "status": "OPEN",
+      "stop_price": 139.49924774169924,
+      "target_price": 158.35049743652345,
+      "ticker": "GLW"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_cash_out": 29287.521492186337,
+      "entry_commission": 14.636442524830754,
+      "entry_date": "2026-08-25",
+      "entry_due_session": "2026-08-25",
+      "entry_price": 184.5800018310547,
+      "holding_days": 1,
+      "last_close": 183.33999633789062,
+      "mae": -0.02091234463137892,
+      "mfe": 0.008397459293431497,
+      "portfolio_equity_before": 90428.50760454789,
+      "predicted_probability": 0.7033189195236247,
+      "quantity": 158.51259958530403,
+      "rank": 3,
+      "recommendation_timestamp": "2026-08-25T01:50:58.978817+00:00",
+      "run_id": "fr-20260824",
+      "score": 70.3,
+      "signal_close": 181.57000732421875,
+      "signal_session": "2026-08-24",
+      "status": "OPEN",
+      "stop_price": 170.7365016937256,
+      "target_price": 193.80900192260742,
+      "ticker": "KLAC"
     }
   ],
   "recommendation_sessions": [
@@ -65,8 +88,9 @@
     "2026-08-19",
     "2026-08-20",
     "2026-08-21",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-25"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-08-25T01:51:55.092386+00:00"
+  "updated_at_utc": "2026-08-26T01:58:25.846065+00:00"
 }
