@@ -1,0 +1,48 @@
+{
+  "accepted_count": 0,
+  "candidates": [],
+  "covered_on_session": 502,
+  "data_failures": {
+    "EA": "no completed bar for data session 2026-08-26"
+  },
+  "data_session_date": "2026-08-26",
+  "data_source_status": "OK",
+  "eligible_count": 37,
+  "git_sha": "936c8087b795ed518a21a3fc2350ccef1d57f4f2",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [
+    {
+      "entry_date": "2026-08-24",
+      "entry_price": 1493.02001953125,
+      "holding_days": 3,
+      "mae": -0.05121161132287122,
+      "mfe": 0.04820191941341623,
+      "quantity": 20.224581422808953,
+      "ticker": "SNDK"
+    },
+    {
+      "entry_date": "2026-08-25",
+      "entry_price": 150.80999755859375,
+      "holding_days": 2,
+      "mae": -0.030236706003672342,
+      "mfe": 0.014057391098118766,
+      "quantity": 199.73973544654604,
+      "ticker": "GLW"
+    },
+    {
+      "entry_date": "2026-08-25",
+      "entry_price": 184.5800018310547,
+      "holding_days": 2,
+      "mae": -0.026438426884832,
+      "mfe": 0.008397459293431497,
+      "quantity": 158.51259958530403,
+      "ticker": "KLAC"
+    }
+  ],
+  "pending_model_entries": [],
+  "qualifying_count": 0,
+  "run_id": "fr-20260826",
+  "run_timestamp_kst": "2026-08-27T18:43:43.285042+09:00",
+  "run_timestamp_utc": "2026-08-27T09:43:43.285042+00:00",
+  "universe_size": 503
+}
