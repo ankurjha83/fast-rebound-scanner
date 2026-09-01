@@ -1,0 +1,39 @@
+{
+  "accepted_count": 0,
+  "candidates": [],
+  "covered_on_session": 502,
+  "data_failures": {
+    "EA": "no completed bar for data session 2026-08-31"
+  },
+  "data_session_date": "2026-08-31",
+  "data_source_status": "OK",
+  "eligible_count": 0,
+  "git_sha": "e738decb943e900eba2b530547906a5f9f406820",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [
+    {
+      "entry_date": "2026-08-25",
+      "entry_price": 150.80999755859375,
+      "holding_days": 5,
+      "mae": -0.030236706003672342,
+      "mfe": 0.04482467923254596,
+      "quantity": 199.73973544654604,
+      "ticker": "GLW"
+    },
+    {
+      "entry_date": "2026-08-25",
+      "entry_price": 184.5800018310547,
+      "holding_days": 5,
+      "mae": -0.05639832895677188,
+      "mfe": 0.01191893448053949,
+      "quantity": 158.51259958530403,
+      "ticker": "KLAC"
+    }
+  ],
+  "pending_model_entries": [],
+  "qualifying_count": 0,
+  "run_id": "fr-20260831",
+  "run_timestamp_kst": "2026-09-01T14:04:13.071413+09:00",
+  "run_timestamp_utc": "2026-09-01T05:04:13.071413+00:00",
+  "universe_size": 503
+}
