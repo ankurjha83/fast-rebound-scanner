@@ -1,7 +1,7 @@
 {
-  "cash": 31673.792634612368,
-  "equity": 89192.11774769647,
-  "last_processed_session": "2026-08-31",
+  "cash": 58710.62224142959,
+  "equity": 87784.737645383,
+  "last_processed_session": "2026-09-01",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [],
   "pending_notification": null,
@@ -13,9 +13,9 @@
       "entry_date": "2026-08-25",
       "entry_due_session": "2026-08-25",
       "entry_price": 150.80999755859375,
-      "holding_days": 5,
-      "last_close": 148.72999572753906,
-      "mae": -0.030236706003672342,
+      "holding_days": 6,
+      "last_close": 145.55999755859375,
+      "mae": -0.0498640965068593,
       "mfe": 0.04482467923254596,
       "portfolio_equity_before": 90458.6378842502,
       "predicted_probability": 0.7104529866847017,
@@ -30,31 +30,6 @@
       "stop_price": 139.49924774169924,
       "target_price": 158.35049743652345,
       "ticker": "GLW"
-    },
-    {
-      "allocation": 0.3333333333333333,
-      "entry_cash_out": 29287.521492186337,
-      "entry_commission": 14.636442524830754,
-      "entry_date": "2026-08-25",
-      "entry_due_session": "2026-08-25",
-      "entry_price": 184.5800018310547,
-      "holding_days": 5,
-      "last_close": 175.4499969482422,
-      "mae": -0.05639832895677188,
-      "mfe": 0.01191893448053949,
-      "portfolio_equity_before": 90428.50760454789,
-      "predicted_probability": 0.7033189195236247,
-      "quantity": 158.51259958530403,
-      "rank": 3,
-      "recommendation_timestamp": "2026-08-25T01:50:58.978817+00:00",
-      "run_id": "fr-20260824",
-      "score": 70.3,
-      "signal_close": 181.57000732421875,
-      "signal_session": "2026-08-24",
-      "status": "OPEN",
-      "stop_price": 170.7365016937256,
-      "target_price": 193.80900192260742,
-      "ticker": "KLAC"
     }
   ],
   "recommendation_sessions": [
@@ -68,8 +43,9 @@
     "2026-08-26",
     "2026-08-27",
     "2026-08-28",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-01"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-01T05:05:05.318977+00:00"
+  "updated_at_utc": "2026-09-02T04:30:06.111780+00:00"
 }
