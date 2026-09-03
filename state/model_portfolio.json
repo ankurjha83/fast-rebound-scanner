@@ -1,9 +1,36 @@
 {
   "cash": 58710.62224142959,
-  "equity": 87784.737645383,
-  "last_processed_session": "2026-09-01",
+  "equity": 87499.11128663195,
+  "last_processed_session": "2026-09-02",
   "model_version": "fast-rebound-v1-frozen",
-  "pending": [],
+  "pending": [
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.6958279518176879,
+      "rank": 1,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 69.6,
+      "signal_close": 206.47999572753906,
+      "signal_session": "2026-09-02",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "MRVL"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.663904476006011,
+      "rank": 2,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 66.4,
+      "signal_close": 172.25999450683594,
+      "signal_session": "2026-09-02",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "KLAC"
+    }
+  ],
   "pending_notification": null,
   "positions": [
     {
@@ -13,9 +40,9 @@
       "entry_date": "2026-08-25",
       "entry_due_session": "2026-08-25",
       "entry_price": 150.80999755859375,
-      "holding_days": 6,
-      "last_close": 145.55999755859375,
-      "mae": -0.0498640965068593,
+      "holding_days": 7,
+      "last_close": 144.1300048828125,
+      "mae": -0.052980507683322964,
       "mfe": 0.04482467923254596,
       "portfolio_equity_before": 90458.6378842502,
       "predicted_probability": 0.7104529866847017,
@@ -44,8 +71,9 @@
     "2026-08-27",
     "2026-08-28",
     "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-02T04:30:06.111780+00:00"
+  "updated_at_utc": "2026-09-03T04:21:22.374035+00:00"
 }
