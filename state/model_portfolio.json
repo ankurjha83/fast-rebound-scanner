@@ -1,7 +1,7 @@
 {
   "cash": 58710.62224142959,
-  "equity": 87499.11128663195,
-  "last_processed_session": "2026-09-02",
+  "equity": NaN,
+  "last_processed_session": "2026-09-03",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -14,7 +14,7 @@
       "score": 69.6,
       "signal_close": 206.47999572753906,
       "signal_session": "2026-09-02",
-      "status": "PENDING_NEXT_OPEN",
+      "status": "ENTRY_DATA_MISSING",
       "ticker": "MRVL"
     },
     {
@@ -27,7 +27,7 @@
       "score": 66.4,
       "signal_close": 172.25999450683594,
       "signal_session": "2026-09-02",
-      "status": "PENDING_NEXT_OPEN",
+      "status": "ENTRY_DATA_MISSING",
       "ticker": "KLAC"
     }
   ],
@@ -40,8 +40,8 @@
       "entry_date": "2026-08-25",
       "entry_due_session": "2026-08-25",
       "entry_price": 150.80999755859375,
-      "holding_days": 7,
-      "last_close": 144.1300048828125,
+      "holding_days": 8,
+      "last_close": NaN,
       "mae": -0.052980507683322964,
       "mfe": 0.04482467923254596,
       "portfolio_equity_before": 90458.6378842502,
@@ -72,8 +72,9 @@
     "2026-08-28",
     "2026-08-31",
     "2026-09-01",
-    "2026-09-02"
+    "2026-09-02",
+    "2026-09-03"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-03T04:21:22.374035+00:00"
+  "updated_at_utc": "2026-09-04T04:29:08.775150+00:00"
 }
