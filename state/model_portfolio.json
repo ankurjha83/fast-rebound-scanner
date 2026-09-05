@@ -1,7 +1,7 @@
 {
   "cash": 58710.62224142959,
-  "equity": NaN,
-  "last_processed_session": "2026-09-03",
+  "equity": 89530.46403038895,
+  "last_processed_session": "2026-09-04",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -40,8 +40,8 @@
       "entry_date": "2026-08-25",
       "entry_due_session": "2026-08-25",
       "entry_price": 150.80999755859375,
-      "holding_days": 8,
-      "last_close": NaN,
+      "holding_days": 9,
+      "last_close": 154.3000030517578,
       "mae": -0.052980507683322964,
       "mfe": 0.04482467923254596,
       "portfolio_equity_before": 90458.6378842502,
@@ -73,8 +73,9 @@
     "2026-08-31",
     "2026-09-01",
     "2026-09-02",
-    "2026-09-03"
+    "2026-09-03",
+    "2026-09-04"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-04T04:29:08.775150+00:00"
+  "updated_at_utc": "2026-09-05T04:23:45.474454+00:00"
 }
