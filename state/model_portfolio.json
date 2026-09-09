@@ -1,7 +1,7 @@
 {
-  "cash": 58710.62224142959,
-  "equity": 89530.46403038895,
-  "last_processed_session": "2026-09-04",
+  "cash": 90485.38020621016,
+  "equity": 90485.38020621016,
+  "last_processed_session": "2026-09-08",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -29,36 +29,23 @@
       "signal_session": "2026-09-02",
       "status": "ENTRY_DATA_MISSING",
       "ticker": "KLAC"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-09",
+      "predicted_probability": 0.6439746163015801,
+      "rank": 1,
+      "recommendation_timestamp": "2026-09-09T04:38:09.563909+00:00",
+      "run_id": "fr-20260908",
+      "score": 64.4,
+      "signal_close": 312.010009765625,
+      "signal_session": "2026-09-08",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "APP"
     }
   ],
   "pending_notification": null,
-  "positions": [
-    {
-      "allocation": 0.3333333333333333,
-      "entry_cash_out": 30152.879294750066,
-      "entry_commission": 15.068905194777644,
-      "entry_date": "2026-08-25",
-      "entry_due_session": "2026-08-25",
-      "entry_price": 150.80999755859375,
-      "holding_days": 9,
-      "last_close": 154.3000030517578,
-      "mae": -0.052980507683322964,
-      "mfe": 0.04482467923254596,
-      "portfolio_equity_before": 90458.6378842502,
-      "predicted_probability": 0.7104529866847017,
-      "quantity": 199.73973544654604,
-      "rank": 1,
-      "recommendation_timestamp": "2026-08-25T01:50:58.978817+00:00",
-      "run_id": "fr-20260824",
-      "score": 71.0,
-      "signal_close": 145.5500030517578,
-      "signal_session": "2026-08-24",
-      "status": "OPEN",
-      "stop_price": 139.49924774169924,
-      "target_price": 158.35049743652345,
-      "ticker": "GLW"
-    }
-  ],
+  "positions": [],
   "recommendation_sessions": [
     "2026-08-17",
     "2026-08-18",
@@ -74,8 +61,9 @@
     "2026-09-01",
     "2026-09-02",
     "2026-09-03",
-    "2026-09-04"
+    "2026-09-04",
+    "2026-09-08"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-05T04:23:45.474454+00:00"
+  "updated_at_utc": "2026-09-09T04:39:02.807411+00:00"
 }
