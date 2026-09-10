@@ -1,7 +1,7 @@
 {
-  "cash": 90485.38020621016,
-  "equity": 90485.38020621016,
-  "last_processed_session": "2026-09-08",
+  "cash": 60323.5868041401,
+  "equity": 89828.97866442704,
+  "last_processed_session": "2026-09-09",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -29,23 +29,36 @@
       "signal_session": "2026-09-02",
       "status": "ENTRY_DATA_MISSING",
       "ticker": "KLAC"
-    },
+    }
+  ],
+  "pending_notification": null,
+  "positions": [
     {
       "allocation": 0.3333333333333333,
+      "entry_cash_out": 30161.79340207006,
+      "entry_commission": 15.073360021024516,
+      "entry_date": "2026-09-09",
       "entry_due_session": "2026-09-09",
+      "entry_price": 311.5350036621094,
+      "holding_days": 1,
+      "last_close": 305.05999755859375,
+      "mae": -0.023512645837306834,
+      "mfe": 0.0026802492344768503,
+      "portfolio_equity_before": 90485.38020621016,
       "predicted_probability": 0.6439746163015801,
+      "quantity": 96.71996360197883,
       "rank": 1,
       "recommendation_timestamp": "2026-09-09T04:38:09.563909+00:00",
       "run_id": "fr-20260908",
       "score": 64.4,
       "signal_close": 312.010009765625,
       "signal_session": "2026-09-08",
-      "status": "PENDING_NEXT_OPEN",
+      "status": "OPEN",
+      "stop_price": 288.1698783874512,
+      "target_price": 327.1117538452149,
       "ticker": "APP"
     }
   ],
-  "pending_notification": null,
-  "positions": [],
   "recommendation_sessions": [
     "2026-08-17",
     "2026-08-18",
@@ -62,8 +75,9 @@
     "2026-09-02",
     "2026-09-03",
     "2026-09-04",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-09T04:39:02.807411+00:00"
+  "updated_at_utc": "2026-09-10T04:39:08.256204+00:00"
 }
