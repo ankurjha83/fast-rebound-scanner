@@ -1,7 +1,7 @@
 {
-  "cash": 93398.0764600258,
-  "equity": 93398.0764600258,
-  "last_processed_session": "2026-09-16",
+  "cash": 62265.38430668386,
+  "equity": 92637.46125852648,
+  "last_processed_session": "2026-09-17",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -29,23 +29,36 @@
       "signal_session": "2026-09-02",
       "status": "ENTRY_DATA_MISSING",
       "ticker": "KLAC"
-    },
+    }
+  ],
+  "pending_notification": null,
+  "positions": [
     {
       "allocation": 0.3333333333333333,
+      "entry_cash_out": 31132.692153341934,
+      "entry_commission": 15.558566793274329,
+      "entry_date": "2026-09-17",
       "entry_due_session": "2026-09-17",
+      "entry_price": 151.35000610351562,
+      "holding_days": 1,
+      "last_close": 147.8000030517578,
+      "mae": -0.026296734891480655,
+      "mfe": 0.029071646640536075,
+      "portfolio_equity_before": 93398.0764600258,
       "predicted_probability": 0.6530171967518316,
+      "quantity": 205.49442709555757,
       "rank": 1,
       "recommendation_timestamp": "2026-09-17T04:49:26.533243+00:00",
       "run_id": "fr-20260916",
       "score": 65.3,
       "signal_close": 144.16000366210938,
       "signal_session": "2026-09-16",
-      "status": "PENDING_NEXT_OPEN",
+      "status": "OPEN",
+      "stop_price": 139.99875564575197,
+      "target_price": 158.91750640869142,
       "ticker": "GLW"
     }
   ],
-  "pending_notification": null,
-  "positions": [],
   "recommendation_sessions": [
     "2026-08-17",
     "2026-08-18",
@@ -68,8 +81,9 @@
     "2026-09-11",
     "2026-09-14",
     "2026-09-15",
-    "2026-09-16"
+    "2026-09-16",
+    "2026-09-17"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-09-17T04:50:23.318938+00:00"
+  "updated_at_utc": "2026-09-18T04:41:14.336890+00:00"
 }

@@ -1,0 +1,88 @@
+{
+  "accepted_count": 0,
+  "candidates": [
+    {
+      "absolute_move_3pct_frequency_60d": 0.36666666666666664,
+      "atr_pct": 0.04732053920405923,
+      "available_portfolio_slot": 0,
+      "beta": 2.090509684981928,
+      "close_position_in_day_range": 0.3643007649484705,
+      "consecutive_down_days": 3.0,
+      "distance_sma20": 0.019570329537835107,
+      "drawdown_from_50d_high": -0.38204943867663144,
+      "estimated_probability": 0.6448529078217002,
+      "fast_rebound_score": 64.5,
+      "market_cap": 108038152192.0,
+      "maximum_hold": 10,
+      "plus5_5d_frequency_60d": 0.4166666666666667,
+      "portfolio_action": "WATCH_ONLY_NO_SLOT",
+      "previous_5d_return": 0.022608083213846886,
+      "previous_close": 321.6000061035156,
+      "qqq_20d_return": 0.0011730055304799425,
+      "range_position_100d": 0.0730221465736609,
+      "rank": 1,
+      "realized_volatility_10d": 0.38788245761466617,
+      "recommended_allocation": 0.3333333333333333,
+      "sma20_slope": 0.012792056945895247,
+      "stop_percentage": -0.075,
+      "target_percentage": 0.05,
+      "ticker": "APP",
+      "volume_relative_20d": 1.0090454719823871
+    }
+  ],
+  "covered_on_session": 500,
+  "data_failures": {
+    "AVB": "no completed bar for data session 2026-09-17",
+    "EA": "no completed bar for data session 2026-09-17",
+    "EQR": "no completed bar for data session 2026-09-17"
+  },
+  "data_session_date": "2026-09-17",
+  "data_source_status": "OK",
+  "eligible_count": 39,
+  "git_sha": "72d39db27a0554a25feb354e6a7bd6fa9adcf11e",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [
+    {
+      "entry_date": "2026-09-17",
+      "entry_price": 151.35000610351562,
+      "holding_days": 1,
+      "mae": -0.026296734891480655,
+      "mfe": 0.029071646640536075,
+      "quantity": 205.49442709555757,
+      "ticker": "GLW"
+    }
+  ],
+  "pending_model_entries": [
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.6958279518176879,
+      "rank": 1,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 69.6,
+      "signal_close": 206.47999572753906,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "MRVL"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.663904476006011,
+      "rank": 2,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 66.4,
+      "signal_close": 172.25999450683594,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "KLAC"
+    }
+  ],
+  "qualifying_count": 1,
+  "run_id": "fr-20260917",
+  "run_timestamp_kst": "2026-09-18T13:40:12.338317+09:00",
+  "run_timestamp_utc": "2026-09-18T04:40:12.338317+00:00",
+  "universe_size": 503
+}
