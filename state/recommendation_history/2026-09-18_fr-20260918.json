@@ -1,0 +1,59 @@
+{
+  "accepted_count": 0,
+  "candidates": [],
+  "covered_on_session": 500,
+  "data_failures": {
+    "AVB": "no completed bar for data session 2026-09-18",
+    "EA": "no completed bar for data session 2026-09-18",
+    "EQR": "no completed bar for data session 2026-09-18"
+  },
+  "data_session_date": "2026-09-18",
+  "data_source_status": "OK",
+  "eligible_count": 38,
+  "git_sha": "814fb71500c868f4045e5c969200fb64c2707c9a",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [
+    {
+      "entry_date": "2026-09-17",
+      "entry_price": 151.35000610351562,
+      "holding_days": 2,
+      "mae": -0.026296734891480655,
+      "mfe": 0.029071646640536075,
+      "quantity": 205.49442709555757,
+      "ticker": "GLW"
+    }
+  ],
+  "pending_model_entries": [
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.6958279518176879,
+      "rank": 1,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 69.6,
+      "signal_close": 206.47999572753906,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "MRVL"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.663904476006011,
+      "rank": 2,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 66.4,
+      "signal_close": 172.25999450683594,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "KLAC"
+    }
+  ],
+  "qualifying_count": 0,
+  "run_id": "fr-20260918",
+  "run_timestamp_kst": "2026-09-19T13:34:25.308167+09:00",
+  "run_timestamp_utc": "2026-09-19T04:34:25.308167+00:00",
+  "universe_size": 503
+}
