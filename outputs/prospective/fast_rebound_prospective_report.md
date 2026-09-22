@@ -4,21 +4,21 @@
 
 ```json
 {
-  "trade_count": 9,
-  "trades_per_month": 9.0,
-  "target_rate": 0.4444444444444444,
-  "stop_rate": 0.5555555555555556,
+  "trade_count": 10,
+  "trades_per_month": 9.224242424242425,
+  "target_rate": 0.5,
+  "stop_rate": 0.5,
   "timeout_rate": 0.0,
-  "average_return": -0.02169925968829793,
-  "median_return": -0.0768481513865754,
-  "profit_factor": 0.47538758191319747,
-  "cumulative_return": -0.0660192353997422,
+  "average_return": -0.014739123876863176,
+  "median_return": -0.014473026480263,
+  "profit_factor": 0.5938932962099529,
+  "cumulative_return": -0.051106022561769326,
   "cagr_when_meaningful": null,
   "sharpe_when_meaningful": null,
   "maximum_drawdown": -0.12500888713368052,
-  "average_mae": -0.06500289820059155,
-  "average_mfe": 0.0383888726155822,
-  "average_holding_period": 4.333333333333333,
+  "average_mae": -0.06113228186968045,
+  "average_mfe": 0.04017931384433448,
+  "average_holding_period": 4.2,
   "gap_through_losses": 1,
   "checkpoint_reached": 0,
   "next_checkpoint": 25
@@ -29,7 +29,7 @@
 
 |   rank |   count |       mean |     median |
 |-------:|--------:|-----------:|-----------:|
-|      1 |       5 |  0.0224199 |  0.0479021 |
+|      1 |       6 |  0.0266669 |  0.0479021 |
 |      2 |       2 | -0.0768482 | -0.0768482 |
 |      3 |       2 | -0.0768482 | -0.0768482 |
 
