@@ -1,9 +1,19 @@
 {
-  "cash": 94889.39774382308,
-  "equity": 94889.39774382308,
-  "last_processed_session": "2026-09-28",
+  "accepted_count": 0,
+  "candidates": [],
+  "covered_on_session": 500,
+  "data_failures": {
+    "AVB": "no completed bar for data session 2026-09-28",
+    "EA": "no completed bar for data session 2026-09-28",
+    "EQR": "no completed bar for data session 2026-09-28"
+  },
+  "data_session_date": "2026-09-28",
+  "data_source_status": "OK",
+  "eligible_count": 25,
+  "git_sha": "78f5b70ecc44039ec145ae0de8b1ce16f164961b",
   "model_version": "fast-rebound-v1-frozen",
-  "pending": [
+  "open_model_positions": [],
+  "pending_model_entries": [
     {
       "allocation": 0.3333333333333333,
       "entry_due_session": "2026-09-03",
@@ -31,40 +41,9 @@
       "ticker": "KLAC"
     }
   ],
-  "pending_notification": null,
-  "positions": [],
-  "recommendation_sessions": [
-    "2026-08-17",
-    "2026-08-18",
-    "2026-08-19",
-    "2026-08-20",
-    "2026-08-21",
-    "2026-08-24",
-    "2026-08-25",
-    "2026-08-26",
-    "2026-08-27",
-    "2026-08-28",
-    "2026-08-31",
-    "2026-09-01",
-    "2026-09-02",
-    "2026-09-03",
-    "2026-09-04",
-    "2026-09-08",
-    "2026-09-09",
-    "2026-09-10",
-    "2026-09-11",
-    "2026-09-14",
-    "2026-09-15",
-    "2026-09-16",
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-24",
-    "2026-09-25",
-    "2026-09-28"
-  ],
-  "schema_version": 1,
-  "updated_at_utc": "2026-09-29T05:41:45.311214+00:00"
+  "qualifying_count": 0,
+  "run_id": "fr-20260928",
+  "run_timestamp_kst": "2026-09-29T14:40:42.794279+09:00",
+  "run_timestamp_utc": "2026-09-29T05:40:42.794279+00:00",
+  "universe_size": 503
 }
