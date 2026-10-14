@@ -1,7 +1,7 @@
 {
   "cash": 94889.39774382308,
   "equity": 94889.39774382308,
-  "last_processed_session": "2026-10-12",
+  "last_processed_session": "2026-10-13",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -29,6 +29,19 @@
       "signal_session": "2026-09-02",
       "status": "ENTRY_DATA_MISSING",
       "ticker": "KLAC"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-10-14",
+      "predicted_probability": 0.6462304602611918,
+      "rank": 1,
+      "recommendation_timestamp": "2026-10-14T04:49:03.766466+00:00",
+      "run_id": "fr-20261013",
+      "score": 64.6,
+      "signal_close": 1626.6400146484375,
+      "signal_session": "2026-10-13",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "FIX"
     }
   ],
   "pending_notification": null,
@@ -73,8 +86,9 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-10-13T06:46:05.350030+00:00"
+  "updated_at_utc": "2026-10-14T04:50:18.918370+00:00"
 }

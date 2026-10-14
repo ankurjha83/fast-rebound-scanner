@@ -1,0 +1,91 @@
+{
+  "accepted_count": 1,
+  "candidates": [
+    {
+      "absolute_move_3pct_frequency_60d": 0.26666666666666666,
+      "atr_pct": 0.04498054713732476,
+      "available_portfolio_slot": 0,
+      "beta": 2.487424026492708,
+      "close_position_in_day_range": 0.943266381241984,
+      "consecutive_down_days": 2.0,
+      "distance_sma20": -0.024459861973739394,
+      "drawdown_from_50d_high": -0.1353087061285696,
+      "estimated_probability": 0.6462304602611918,
+      "fast_rebound_score": 64.6,
+      "market_cap": 57248501760.0,
+      "maximum_hold": 10,
+      "plus5_5d_frequency_60d": 0.5833333333333334,
+      "portfolio_action": "PENDING_NEXT_OPEN",
+      "previous_5d_return": -0.10523881185502082,
+      "previous_close": 1626.6400146484375,
+      "qqq_20d_return": 0.056497664113267954,
+      "range_position_100d": 0.19738059576854822,
+      "rank": 1,
+      "realized_volatility_10d": 0.5057443608609247,
+      "recommended_allocation": 0.3333333333333333,
+      "sma20_slope": 0.011274011065401046,
+      "stop_percentage": -0.075,
+      "target_percentage": 0.05,
+      "ticker": "FIX",
+      "volume_relative_20d": 1.4063624806628987
+    }
+  ],
+  "covered_on_session": 500,
+  "data_failures": {
+    "AVB": "no completed bar for data session 2026-10-13",
+    "EA": "no completed bar for data session 2026-10-13",
+    "EQR": "no completed bar for data session 2026-10-13"
+  },
+  "data_session_date": "2026-10-13",
+  "data_source_status": "OK",
+  "eligible_count": 40,
+  "git_sha": "7c2b60d9e7d05eba2bc367b9c0610222d3d6d35d",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [],
+  "pending_model_entries": [
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.6958279518176879,
+      "rank": 1,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 69.6,
+      "signal_close": 206.47999572753906,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "MRVL"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.663904476006011,
+      "rank": 2,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 66.4,
+      "signal_close": 172.25999450683594,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "KLAC"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-10-14",
+      "predicted_probability": 0.6462304602611918,
+      "rank": 1,
+      "recommendation_timestamp": "2026-10-14T04:49:03.766466+00:00",
+      "run_id": "fr-20261013",
+      "score": 64.6,
+      "signal_close": 1626.6400146484375,
+      "signal_session": "2026-10-13",
+      "status": "PENDING_NEXT_OPEN",
+      "ticker": "FIX"
+    }
+  ],
+  "qualifying_count": 1,
+  "run_id": "fr-20261013",
+  "run_timestamp_kst": "2026-10-14T13:49:03.766466+09:00",
+  "run_timestamp_utc": "2026-10-14T04:49:03.766466+00:00",
+  "universe_size": 503
+}
