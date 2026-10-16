@@ -1,7 +1,7 @@
 {
-  "cash": 63259.59849588205,
-  "equity": 93591.72381863359,
-  "last_processed_session": "2026-10-14",
+  "cash": 92296.20371025494,
+  "equity": 92296.20371025494,
+  "last_processed_session": "2026-10-15",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -29,36 +29,23 @@
       "signal_session": "2026-09-02",
       "status": "ENTRY_DATA_MISSING",
       "ticker": "KLAC"
-    }
-  ],
-  "pending_notification": null,
-  "positions": [
+    },
     {
       "allocation": 0.3333333333333333,
-      "entry_cash_out": 31629.799247941028,
-      "entry_commission": 15.806996125907562,
-      "entry_date": "2026-10-14",
-      "entry_due_session": "2026-10-14",
-      "entry_price": 1606.030029296875,
-      "holding_days": 1,
-      "last_close": 1541.6800537109375,
-      "mae": -0.05739622051232396,
-      "mfe": 0.010740770524416687,
-      "portfolio_equity_before": 94889.39774382308,
-      "predicted_probability": 0.6462304602611918,
-      "quantity": 19.674721256034854,
+      "entry_due_session": "2026-10-16",
+      "predicted_probability": 0.6815269994552893,
       "rank": 1,
-      "recommendation_timestamp": "2026-10-14T04:49:03.766466+00:00",
-      "run_id": "fr-20261013",
-      "score": 64.6,
-      "signal_close": 1626.6400146484375,
-      "signal_session": "2026-10-13",
-      "status": "OPEN",
-      "stop_price": 1485.5777770996094,
-      "target_price": 1686.3315307617188,
+      "recommendation_timestamp": "2026-10-16T04:27:15.274000+00:00",
+      "run_id": "fr-20261015",
+      "score": 68.2,
+      "signal_close": 1481.27001953125,
+      "signal_session": "2026-10-15",
+      "status": "PENDING_NEXT_OPEN",
       "ticker": "FIX"
     }
   ],
+  "pending_notification": null,
+  "positions": [],
   "recommendation_sessions": [
     "2026-08-17",
     "2026-08-18",
@@ -101,8 +88,9 @@
     "2026-10-09",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-15"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-10-15T04:34:42.324724+00:00"
+  "updated_at_utc": "2026-10-16T04:28:27.620089+00:00"
 }
