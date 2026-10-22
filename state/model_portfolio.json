@@ -1,7 +1,7 @@
 {
   "cash": 61530.80247350328,
-  "equity": 90602.42911115914,
-  "last_processed_session": "2026-10-20",
+  "equity": 90689.41059680626,
+  "last_processed_session": "2026-10-21",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -40,8 +40,8 @@
       "entry_date": "2026-10-16",
       "entry_due_session": "2026-10-16",
       "entry_price": 1477.010009765625,
-      "holding_days": 3,
-      "last_close": 1397.0899658203125,
+      "holding_days": 4,
+      "last_close": 1401.27001953125,
       "mae": -0.06422433478742307,
       "mfe": 0.017108902014320027,
       "portfolio_equity_before": 92296.20371025494,
@@ -105,8 +105,9 @@
     "2026-10-15",
     "2026-10-16",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-10-21T04:42:14.696591+00:00"
+  "updated_at_utc": "2026-10-22T04:39:48.809052+00:00"
 }
