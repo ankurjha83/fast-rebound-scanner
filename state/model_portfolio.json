@@ -1,7 +1,7 @@
 {
-  "cash": 61530.80247350328,
-  "equity": 90689.41059680626,
-  "last_processed_session": "2026-10-21",
+  "cash": 89750.37262158007,
+  "equity": 89750.37262158007,
+  "last_processed_session": "2026-10-22",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -32,33 +32,7 @@
     }
   ],
   "pending_notification": null,
-  "positions": [
-    {
-      "allocation": 0.3333333333333333,
-      "entry_cash_out": 30765.40123675165,
-      "entry_commission": 15.375013111819916,
-      "entry_date": "2026-10-16",
-      "entry_due_session": "2026-10-16",
-      "entry_price": 1477.010009765625,
-      "holding_days": 4,
-      "last_close": 1401.27001953125,
-      "mae": -0.06422433478742307,
-      "mfe": 0.017108902014320027,
-      "portfolio_equity_before": 92296.20371025494,
-      "predicted_probability": 0.6815269994552893,
-      "quantity": 20.80870047662695,
-      "rank": 1,
-      "recommendation_timestamp": "2026-10-16T04:27:15.274000+00:00",
-      "run_id": "fr-20261015",
-      "score": 68.2,
-      "signal_close": 1481.27001953125,
-      "signal_session": "2026-10-15",
-      "status": "OPEN",
-      "stop_price": 1366.2342590332032,
-      "target_price": 1550.8605102539063,
-      "ticker": "FIX"
-    }
-  ],
+  "positions": [],
   "recommendation_sessions": [
     "2026-08-17",
     "2026-08-18",
@@ -106,8 +80,9 @@
     "2026-10-16",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-10-22T04:39:48.809052+00:00"
+  "updated_at_utc": "2026-10-23T04:45:53.234523+00:00"
 }
