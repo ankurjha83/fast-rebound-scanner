@@ -1,0 +1,51 @@
+{
+  "accepted_count": 0,
+  "candidates": [],
+  "covered_on_session": 498,
+  "data_failures": {
+    "AVB": "no completed bar for data session 2026-11-06",
+    "EA": "no completed bar for data session 2026-11-06",
+    "EQR": "no completed bar for data session 2026-11-06",
+    "PSKY": "no completed bar for data session 2026-11-06",
+    "WBD": "no completed bar for data session 2026-11-06"
+  },
+  "data_session_date": "2026-11-06",
+  "data_source_status": "OK",
+  "eligible_count": 0,
+  "git_sha": "a9218315ceeb835d5723b37a2996e8725669979c",
+  "model_version": "fast-rebound-v1-frozen",
+  "open_model_positions": [],
+  "pending_model_entries": [
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.6958279518176879,
+      "rank": 1,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 69.6,
+      "signal_close": 206.47999572753906,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "MRVL"
+    },
+    {
+      "allocation": 0.3333333333333333,
+      "entry_due_session": "2026-09-03",
+      "predicted_probability": 0.663904476006011,
+      "rank": 2,
+      "recommendation_timestamp": "2026-09-03T04:20:20.642516+00:00",
+      "run_id": "fr-20260902",
+      "score": 66.4,
+      "signal_close": 172.25999450683594,
+      "signal_session": "2026-09-02",
+      "status": "ENTRY_DATA_MISSING",
+      "ticker": "KLAC"
+    }
+  ],
+  "qualifying_count": 0,
+  "run_id": "fr-20261106",
+  "run_timestamp_kst": "2026-11-07T14:54:08.458893+09:00",
+  "run_timestamp_utc": "2026-11-07T05:54:08.458893+00:00",
+  "universe_size": 503
+}
