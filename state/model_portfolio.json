@@ -1,7 +1,7 @@
 {
   "cash": 89750.37262158007,
   "equity": 89750.37262158007,
-  "last_processed_session": "2026-11-20",
+  "last_processed_session": "2026-11-23",
   "model_version": "fast-rebound-v1-frozen",
   "pending": [
     {
@@ -102,8 +102,9 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-23"
   ],
   "schema_version": 1,
-  "updated_at_utc": "2026-11-21T07:00:34.211219+00:00"
+  "updated_at_utc": "2026-11-24T09:50:04.470270+00:00"
 }
